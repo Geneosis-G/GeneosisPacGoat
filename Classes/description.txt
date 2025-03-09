@@ -1,0 +1,64 @@
+Waka Waka Waka!
+
+Step 1: Eat Pac-Dot.
+Step 2: Eat Pac-Dot.
+Step 3: Eat Power Pellet.
+Step 4: Eat Ghost.
+Step 5: ????
+Step 6: PROFIT!!!
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[b]FEATURES[/b]
+- Pac-Goat: You are yellow, and you can play Pac-Goat games.
+
+[b]KEYBOARD CONTROLS[/b]
+- [b][R]:[/b] Hold 3s to start a normal game.
+- [b][R]:[/b] Hold 6s to start an unlimited game.
+
+[b]GAMEPAD CONTROLS[/b]
+- [b][Y]:[/b] Hold 3s to start a normal game.
+- [b][Y]:[/b] Hold 6s to start an unlimited game.
+
+[b]CHARACTERISTICS[/b]
+[h1]At game start[/h1]
+- The game area is centered on the position of player 1.
+- All players using Pac-Goat will join the game with 3 lives.
+- 4 Ghosts (colored goats) will appear.
+- A lot of Pac-Dots (white cubes) and 5 Power Pellets (white balls) will appear in the game area.
+[h1]During game[/h1]
+- Collect all Pac-Dots and Power Pellets in the game area to complete the game.
+- Exit the game area to cancel the game.
+- Ghosts cannot ragdoll, will move randomly until they see a player, will chase the player they see.
+- If a Ghost catch you, you lose 1 life and every player and Ghost return to its starting position.
+- If a player lose all his lives, he is kicked out of the game area.
+- When the last player lose his last life, the game ends.
+- In unlimited mode, the game do not end after collecting all Pac-Dots/Power Pellets, instead the game area is filled again.
+- Collect Power Pellets to make the Ghosts edible (they turn blue) for 10 seconds.
+- When you eat a Ghost, it will go back to it's starting point and is no longer edible.
+- When edible Ghosts are about to return to normal, they will blink white and blue.
+- The game takes place in 2D : Vertical position do not count to catch Pac-Dots/Power Pellets or to be catched by Ghosts (jumping over, or walking under will count as touched).
+- If you can't find any Pac-Dot/Power Pellet for too long, one of those left will emit particles.
+- If one of the Ghosts is somehow killed or destroyed, the game ends.
+- When the game ends, the final score is displayed.
+[h1]Score values[/h1]
+- Pac-Dot = 10 pts.
+- Power Pellet = 50 pts.
+- Ghost = 200 pts.
+
+[b]EASTER EGGS[/b]
+- [spoiler]Zoom out as far as you can to get a better view of the game area.[/spoiler]
+- [spoiler]Each time you eat a Ghost, the score given by the next Ghost will be doubled! The score is reset if you eat another Power Pellet or if Ghosts return to normal.[/spoiler]
+- [spoiler]Collecting 10000 pts. gives all players an extra life (5 lives max). Players with 0 lives stay out of the game.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- Pac-Dots/Power Pellets can be generated in unreachable areas: Yes, but thanks to the 2D rule you can still catch them if you manage to align horizontally with them.
+- After eating a Ghost, you can rarely lose one life: This happen if the Ghost you just ate respawn really close to you, to avoid that try to remember where each Ghost spawn.
+- The goat might have glitchy animations during countdown (can heppen if the countdown started when the goat was ragdolled): fixes itself after a few seconds.
+
+[b]DEV NOTES[/b]
+[quote=About this mod]Another wonderful suggestion born in the request thread :) First I had some arguments not to make that mod because of how inaccurate it could be to adapt an originally 2D game in a 3D universe... But I figured out a way to keep most of the original gameplay while having it more goaty :p
+So first of all you might have noticed the "arena limits" from Super Smash Goats, actually the whole mechnaic to enter and leave the Pac-Goat game mode are also taken from this mod to gain some time ^^
+Then we have the Pac-Dots and Power Pellets that use the same basic structure as the Sonic Rings, but with a cube and a sphere painted in flat white texture.
+Finally the hardest part in there: the Ghosts, and more precisely their AI... Contrary to most of the other enemy AI I made this one is quite strong as it won't let the Ghost go ragdoll, which means it is hard to move with pushing force effects but as well easier to manoeuver in the game world (as it won't fall apart every time it trip on a little item on its way). To make it even stronger it cannot be grabbed by the goat tongue and the "2D game rule" make it able to touch the player even if it's only aligned with him vertically and not actually touching him. FInally I came up with a "try not to be stuck" algorithm that feels a bit more efficient than the one i used in previous AIs so I'm happy with this one :)
+[/quote]
